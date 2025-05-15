@@ -1,0 +1,25 @@
+{
+  "name": "cse341-project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuchaj/cse341-project1.git"
+  },
+  "keywords": [],
+  "author": "Joseph Anucha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuchaj/cse341-project1/issues"
+  },
+  "homepage": "https://github.com/anuchaj/cse341-project1#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
+  }
+}
