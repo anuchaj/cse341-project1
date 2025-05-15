@@ -1,0 +1,15 @@
+### Get all contacts
+GET http://localhost:3000/contacts
+Content-Type: application/json
+
+###
+
+### Get a specific contact by ID
+GET http://localhost:3000/contacts/6826290212b8f2ec52e24dfd
+Content-Type: application/json
+
+###
+
+### Get all contacts from Render
+GET https://cse341-project1-rpha.onrender.com/contacts
+Content-Type: application/json

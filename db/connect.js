@@ -11,15 +11,13 @@ const connectToDb = async (callback) => {
 
   try {
     await client.connect();
-    db = client.db(); // use the default db from the URI
+    db = client.db(process.env.DB_NAME); // Use DB name from env or use this db = client.db() the default db from the URI
+    console.log('Connected to MongoDB');
     callback(); // start server after DB connects
   } catch (err) {
-    console.error(err);
+    console.error('Failed to connect to MongoDB', err);
   }
 };
-
-console.log("DB connected");
-
 
 const getDb = () => db;
 
